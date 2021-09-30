@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#000;
+    filter:brightness(70%)
+}
+.cont{
+    display:flex;
+    margin: 5px;
+}
+.head img{
+    position: relative;
+    width: 14%;
+    margin-top: -6px;
+    margin-bottom: -12px;
+    z-index: 1;
+    margin-left: 5px;
+}
+.home-image{
+    background-image: url("assets/home.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 98%;
+    height:90vh;
+    border-radius:20px;
+    position:relative;
+    filter: brightness(0.8);
+    left:10px;
+}
+.home-image-text{
+    color:white;
+    position: relative;
+    width:30%;
+    left:3em;
+    top:13em;
+    z-index:1;
+}
+.para{
+    width:100%;
+    height:auto;
+}
+.button{
+    background-color: red;
+    color:#000;
+    width:70px;
+    height:32px;
+    border-radius:4px;
+    position:relative;
+    top:10px;
+    padding: 3px 13px 1px;
+    padding-right: 19px;
+    font-size: 25px;
+}
+.button img{
+    width:25px;
+    padding-left:7px;
+    margin-top:3px;
+    position: absolute;
+    
+}
+.no{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.no img{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 20px 0px 10px 10px;
+}
+
+::-webkit-scrollbar{
+    width: 100%;
+    background: transparent;
+}
+.no img:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
